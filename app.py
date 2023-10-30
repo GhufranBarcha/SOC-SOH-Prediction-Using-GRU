@@ -6,8 +6,8 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Set the page configuration
 
-st.set_page_config(layout="wide", page_title="SOC & SOH Prediction" ,page_icon="battery-half")
-# st.set_page_config(layout="Centered", page_title="SOC & SOH Prediction",,page_icon="battery-half")
+st.set_page_config(layout="wide", page_title="SOC & SOH Prediction" ,page_icon="🔌")
+# st.set_page_config(layout="Centered", page_title="SOC & SOH Prediction",page_icon="🔌")
 # Comment and uncomment above for different UI
 
 
