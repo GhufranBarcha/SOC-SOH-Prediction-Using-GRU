@@ -118,9 +118,6 @@ st.write(
 tabs = st.tabs(["SOC Prediction", "SOH Prediction", "Project Info"])
 
 
-with st.sidebar:
-    st.write("sjdka")
-
 # Create a page for SOC prediction
 with tabs[0]:
     try:   # Read the SOC data from the uploaded file
