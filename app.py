@@ -133,7 +133,7 @@ with tabs[0]:
             st.dataframe(soc_data ,width= 2000)
 
             # Display the predicted SOC
-            st.success('Predicted SOH : {:.3f}'.format(predicted_soc[0][0]))
+            st.success('Predicted SOC : {:.3f}'.format(predicted_soc[0][0]))
     except Exception as e:
             st.warning('Shape of the uploaded file is incorrect. Please upload again.', icon="⚠️")    
 
